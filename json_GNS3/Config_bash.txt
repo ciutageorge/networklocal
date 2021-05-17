@@ -1,0 +1,53 @@
+curl "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes"
+http://localhost:3080/v2/
+projects/13ced59c-7596-4787-bd71-091c2e2c0609
+nodes/f18a1310-b427-4443-b213-57cdad4e33de
+POSMAN
+######################################################
+STOP - http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/f18a1310-b427-4443-b213-57cdad4e33de/stop
+START - http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/f18a1310-b427-4443-b213-57cdad4e33de/start
+
+
+
+
+START
+########################################################
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/8ea0c205-5bfe-4bb8-a5e5-ca30c7ee91c3/start" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/5db4f906-a7bc-4120-a9ef-92cf0724e7bd/start" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/f18a1310-b427-4443-b213-57cdad4e33de/start" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/1e059019-dbcf-4e2e-8c39-7ec29b7ab2fc/start" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/c4c2ad1b-c88d-4666-8a1e-8a4a17e9c6a2/start" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/f02cbc1c-d337-4d5f-a54b-06e05d6cf420/start" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/db568c84-7b3b-4c96-be16-c67d4209e312/start" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/7272d0b2-3d9b-4b1b-a042-dcd40eb70ab0/start" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/cb43f8b0-9718-4fe2-b9c7-47c4c6cd9435/start" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/2b83fe1c-377f-4338-93ee-c9a02bb6b796/start" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/131fcd74-db43-4fa9-8f7b-d5d5c9177faa/start" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/6509007c-c01c-49d6-a5f6-abe610fbbd90/start" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/7419f66c-1ded-43e4-9f6d-f486cf26c8cb/start" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/18e43e1d-1e67-445b-bce7-073c87c8eb58/start" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/97cd4a8f-136a-4daf-ade6-8399837d6562/start" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/d8682da2-e540-463f-aeb3-ffabbb8bd7c3/start" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/07c7aac1-f2c4-4794-97be-6d89b7871415/start" -d "{}"
+
+STOP
+##########################################################
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/8ea0c205-5bfe-4bb8-a5e5-ca30c7ee91c3/stop" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/5db4f906-a7bc-4120-a9ef-92cf0724e7bd/stop" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/f18a1310-b427-4443-b213-57cdad4e33de/stop" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/1e059019-dbcf-4e2e-8c39-7ec29b7ab2fc/stop" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/c4c2ad1b-c88d-4666-8a1e-8a4a17e9c6a2/stop" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/f02cbc1c-d337-4d5f-a54b-06e05d6cf420/stop" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/db568c84-7b3b-4c96-be16-c67d4209e312/stop" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/7272d0b2-3d9b-4b1b-a042-dcd40eb70ab0/stop" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/cb43f8b0-9718-4fe2-b9c7-47c4c6cd9435/stop" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/2b83fe1c-377f-4338-93ee-c9a02bb6b796/stop" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/131fcd74-db43-4fa9-8f7b-d5d5c9177faa/stop" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/6509007c-c01c-49d6-a5f6-abe610fbbd90/stop" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/7419f66c-1ded-43e4-9f6d-f486cf26c8cb/stop" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/18e43e1d-1e67-445b-bce7-073c87c8eb58/stop" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/97cd4a8f-136a-4daf-ade6-8399837d6562/stop" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/d8682da2-e540-463f-aeb3-ffabbb8bd7c3/stop" -d "{}"
+curl -X POST "http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/07c7aac1-f2c4-4794-97be-6d89b7871415/stop" -d "{}"
+
+
