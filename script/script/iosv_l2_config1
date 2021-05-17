@@ -1,0 +1,4 @@
+interface lo 102
+ip address 102.1.1.1 255.255.255.0
+exit
+do sh ip int brief
