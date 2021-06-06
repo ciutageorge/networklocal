@@ -1,0 +1,1 @@
+curl -X POST 'http://localhost:3080/v2/projects/13ced59c-7596-4787-bd71-091c2e2c0609/nodes/f18a1310-b427-4443-b213-57cdad4e33de/stop'
